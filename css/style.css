@@ -1,0 +1,61 @@
+
+#graphic {
+  position: relative;
+  margin: 0;
+  padding: 0px;
+  max-width: calc(50% + 100vh * 660 / 500);
+  width: 100%;
+}
+
+#sections {
+  position: relative;
+  display: inline-block;
+  width: calc(25%);
+  min-width: calc(100% - 100vh * 660 / 500);
+  padding: 10px;
+  margin-bottom: calc(100vh - 100px);
+}
+
+#vis {
+  display: inline-block;
+  position: fixed;
+  top: 0px;
+  width: calc(75%);
+  max-width: calc(100vh * 660 / 500);
+}
+
+.step {
+  margin-top: 20px;
+  margin-bottom: 60px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.highlighted-step {
+  border-left: 6px solid #D9D4D0;
+  padding-left: 4px;
+}
+
+p {
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+@font-face {
+  font-family: 'CMUSerif-Italic';
+  src: url('fonts/cmunti.eot');
+  src: url('fonts/cmunti.eot?#iefix') format('embedded-opentype'),
+     url('fonts/cmunti.woff') format('woff'),
+     url('fonts/cmunti.ttf') format('truetype'),
+     url('fonts/cmunti.svg#cmunti') format('svg');
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'CMUSerif-Roman';
+  src: url('fonts/cmunrm.eot');
+  src: url('fonts/cmunrm.eot?#iefix') format('embedded-opentype'),
+     url('fonts/cmunrm.woff') format('woff'),
+     url('fonts/cmunrm.ttf') format('truetype'),
+     url('fonts/cmunrm.svg#cmunrm') format('svg');
+  font-weight: normal;
+}
