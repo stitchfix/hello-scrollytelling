@@ -1,4 +1,4 @@
-# Hello Scrollytelling!
+# YO! Scrollytelling!
 
 This is a bare bones version of the scrollytelling structure underlying the [Stitch Fix Algorithms Tour](http://algorithms-tour.stitchfix.com), the full source code for which is [here](https://github.com/stitchfix/algorithms-tour). It is based on Jim Vallandingham's concepts and code for scrollytelling with D3, which is explained [here](http://vallandingham.me/scroller.html), demonstrated [here](http://vallandingham.me/scroll_demo/) and coded [here](https://github.com/vlandham/scroll_demo).
 
